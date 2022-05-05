@@ -6,7 +6,7 @@ const Footer: Component = () => {
 		<footer class={styles.footer}>
 			<p>
 				Built by Pontakorn &nbsp;
-				<a href="https://github.com/pontakonth">GitHub: pontakornth</a>
+				<a href="https://github.com/pontakornth">GitHub: pontakornth</a>
 			</p>
 			<p>
 				<a href="https://github.com/pontakornth/ninetynine-fail/">Source</a>
