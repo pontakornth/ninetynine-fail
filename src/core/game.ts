@@ -5,7 +5,7 @@ export function getInitialPower(): number {
 export function getFieldPower(initialPower: number): number {
 	// NOTE: In a rare case, the game is unplayable. We don't care for loosers.
 	// NOTE: The correct spelling is loser. We also don't care.
-	return Math.floor(Math.random() * (initialPower + 20))
+	return Math.floor(Math.random() * (initialPower * 3))
 }
 
 export function generateFields(initialPower: number, fieldsCount: number): number[] {
