@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .logo {
@@ -32,9 +33,23 @@
 }
 
 .grid button {
-  background: white;
-  border: 3px solid red;
+  background: var(--primary-color);
+  border: 8px solid white;
   padding: .33rem;
+  color: white;
+  font-family: inherit;
+}
+
+.grid button:hover {
+  background: white;
+  color: var(--primary-color);
+}
+
+.grid button:disabled {
+  cursor: not-allowed;
+  color: lightgray;
+  background: red;
+  border-color: white;
 }
 
 .lost {
