@@ -23,6 +23,24 @@
   color: #b318f0;
 }
 
+.grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+}
+
+.grid button {
+  background: white;
+  border: 3px solid red;
+  padding: .33rem;
+}
+
+.lost {
+  color: red;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
