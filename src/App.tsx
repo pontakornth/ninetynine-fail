@@ -22,6 +22,7 @@ const App: Component = () => {
       }
     }
   }
+  // NOTE: Misspelling is intentional here.
   return (
     <>
       <div class={styles.App}>
